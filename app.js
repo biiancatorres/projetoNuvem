@@ -56,7 +56,7 @@ app.get('/info', (req, res) => {
 
 app.get('/contato/:nome', (req, res) => {
     const nome = req.params.nome; // Obtendo o parâmetro da URL
-    res.send(createHtml('Contato', `Olá, ${nome}! Entre em contato conosco pelo e-mail: contato@exemplo.com.`));
+    res.send(createHtml('Contato', `Olá, ${nome}! Entre em contato conosco pelo telefone: 859565266552.`));
 });
 
 
